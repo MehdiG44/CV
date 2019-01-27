@@ -14,6 +14,10 @@ body {
     grid-row: 1 / 2;
 }
 
+.tools p {
+    margin: 0px;
+}
+
 .name {
     grid-column: 3 / 4;
     grid-row: 1 / 2;
