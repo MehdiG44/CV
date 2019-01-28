@@ -8,7 +8,7 @@ body {
     display: grid;
     grid-template-columns: 4(1fr);
     grid-template-rows: 3(1fr);
-    background-color: hsl(55, 100%, 55%);
+    background-color: hsla(55, 100%, 55%, 0.911);
 }
 
 .legend {
