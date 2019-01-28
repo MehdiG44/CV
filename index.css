@@ -1,32 +1,28 @@
 * {
     list-style: none;
     font-family: 'Handlee', cursive;
-    font-size: 1.01em;
+    font-size: 0.98em;
 }
 
 body {
     display: grid;
     grid-template-columns: 4(1fr);
     grid-template-rows: 3(1fr);
-    background-color: hsla(55, 100%, 55%, 0.911);
-}
-
-.legend {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-}
-
-.legend p {
-    margin: 0.3em;
+    background-color: hsla(50, 100%, 100%, 1);
 }
 
 .tools {
-    grid-column: 2 / 3;
+    grid-column: 1 / 2;
     grid-row: 1 / 2;
 }
 
 .tools p {
     margin: 0.3em;
+}
+
+.logo {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
 }
 
 .name {
