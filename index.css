@@ -36,13 +36,13 @@ body {
 
 .newTable {
     border-style: solid;
+    background-color: hsl(200, 100%, 50%);
 }
 
 .new {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
     text-align: center;
-    border-style: ridge;
 }
 
 .newList {
@@ -52,13 +52,13 @@ body {
 
 .inProgressTable {
     border-style: solid;
+    background-color: hsl(200, 100%, 50%);
 }
 
 .inProgress {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     text-align: center;
-    border-style: ridge;
 }
 
 .inProgressList {
@@ -68,13 +68,13 @@ body {
 
 .learningToValidateTable {
     border-style: solid;
+    background-color: hsl(200, 100%, 50%);
 }
 
 .learningToValidate {
     grid-column: 3 / 4;
     grid-row: 2 / 3;
     text-align: center;
-    border-style: ridge;
 }
 
 .learningToValidateList {
@@ -84,13 +84,13 @@ body {
 
 .validatedLearningTable {
     border-style: solid;
+    background-color: hsl(200, 100%, 50%);
 }
 
 .validatedLearning {
     grid-column: 4 / 5;
     grid-row: 2 / 3;
     text-align: center;
-    border-style: ridge;
 }
 
 .validatedLearningList {
@@ -99,6 +99,6 @@ body {
 }
 
 li {
-    border-style: ridge;
     margin: 0.2em;
+    background-color: hsl(20, 100%, 99%);
 }
