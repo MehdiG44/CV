@@ -1,3 +1,7 @@
+* {
+    list-style: none;
+}
+
 body {
     display: grid;
     grid-template-columns: 4(1fr);
@@ -30,28 +34,15 @@ body {
     text-align: right;
 }
 
+.newTable {
+    border-style: solid;
+}
+
 .new {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
     text-align: center;
-}
-
-.inProgress {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    text-align: center;
-}
-
-.learningToValidate {
-    grid-column: 3 / 4;
-    grid-row: 2 / 3;
-    text-align: center;
-}
-
-.validatedLearning {
-    grid-column: 4 / 5;
-    grid-row: 2 / 3;
-    text-align: center;
+    border-style: ridge;
 }
 
 .newList {
@@ -59,9 +50,31 @@ body {
     grid-row: 3 / 4;
 }
 
+.inProgressTable {
+    border-style: solid;
+}
+
+.inProgress {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    text-align: center;
+    border-style: ridge;
+}
+
 .inProgressList {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
+}
+
+.learningToValidateTable {
+    border-style: solid;
+}
+
+.learningToValidate {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    text-align: center;
+    border-style: ridge;
 }
 
 .learningToValidateList {
@@ -69,7 +82,23 @@ body {
     grid-row: 3 / 4;
 }
 
+.validatedLearningTable {
+    border-style: solid;
+}
+
+.validatedLearning {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    text-align: center;
+    border-style: ridge;
+}
+
 .validatedLearningList {
     grid-column: 4 / 5;
     grid-row: 3 / 4;
+}
+
+li {
+    border-style: ridge;
+    margin: 0.2em;
 }
