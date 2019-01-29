@@ -12,8 +12,8 @@ body {
     display: grid;
     grid-template-columns: 4(1fr);
     grid-template-rows: 3(1fr);
-    background-size: contain;
-    background-color: hsla(15, 100%, 50%, 1)
+    background-image: url(christopher-burns-253179-unsplash.jpg);
+    background-size: cover;
 }
 
 .tools {
@@ -55,12 +55,13 @@ body {
     color: black;
     text-decoration: none;
     font-weight: bold;
+    box-shadow: 0.16em 0.16em 0.8em;
 }
 
 .newTable {
     background-color: hsl(200, 100%, 50%);
     margin: 1em;
-    border-radius: 0.2em;
+    border-radius: 0.3em;
     height: min-content;
 }
 
@@ -79,7 +80,7 @@ body {
 .inProgressTable {
     background-color: hsl(200, 100%, 50%);
     margin: 1em;
-    border-radius: 0.2em;
+    border-radius: 0.3em;
     height: min-content;
 }
 
@@ -98,7 +99,7 @@ body {
 .learningToValidateTable {
     background-color: hsl(200, 100%, 50%);
     margin: 1em;
-    border-radius: 0.2em;
+    border-radius: 0.3em;
     height: min-content;
 }
 
@@ -117,7 +118,7 @@ body {
 .validatedLearningTable {
     background-color: hsl(200, 100%, 50%);
     margin: 1em;
-    border-radius: 0.2em;
+    border-radius: 0.3em;
     height: min-content;
 }
 
@@ -140,6 +141,7 @@ li {
     background-color: hsl(20, 100%, 99%);
     padding: 0.3em;
     border-radius: 0.2em;
+    box-shadow: 0em 0.08em hsl(200, 100%, 25%);
 }
 
 h2 {
