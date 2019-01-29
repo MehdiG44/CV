@@ -8,7 +8,7 @@ body {
     display: grid;
     grid-template-columns: 4(1fr);
     grid-template-rows: 3(1fr);
-    background-color: hsla(50, 100%, 100%, 1);
+    background-image: url(/img/IMG_5038.JPG);
 }
 
 .tools {
