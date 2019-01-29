@@ -1,3 +1,7 @@
+@media only screen and (orientation: portrait) {
+
+}
+
 * {
     list-style: none;
     font-family: 'Handlee', cursive;
@@ -8,7 +12,8 @@ body {
     display: grid;
     grid-template-columns: 4(1fr);
     grid-template-rows: 3(1fr);
-    background-image: url(/img/IMG_5038.JPG);
+    background-size: contain;
+    background-color: hsla(15, 100%, 50%, 1)
 }
 
 .tools {
