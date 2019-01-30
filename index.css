@@ -2,6 +2,16 @@
 
 }
 
+@media only screen and (max-width: 1086px) {
+    .contact a {
+    white-space: pre;
+    }
+
+    .tools h3 {
+        white-space: pre;
+    }
+}
+
 * {
     list-style: none;
     font-family: 'Handlee', cursive;
