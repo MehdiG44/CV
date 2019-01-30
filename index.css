@@ -5,7 +5,7 @@
 * {
     list-style: none;
     font-family: 'Handlee', cursive;
-    font-size: 0.98em;
+    font-size: 1.01em;
 }
 
 body {
@@ -157,6 +157,6 @@ h1 {
     margin-bottom: 0.3em;
 }
 
-#python, #japanese, #france, #logistic {
+#python, #turkish, #intercultural, #business {
     margin-bottom: 0.6em;
 }
