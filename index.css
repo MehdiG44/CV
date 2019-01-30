@@ -59,7 +59,7 @@ body {
 }
 
 .newTable {
-    background-color: hsl(200, 100%, 50%);
+    background-color: hsl(208, 100%, 50%);
     margin: 1em;
     border-radius: 0.3em;
     height: min-content;
@@ -78,7 +78,7 @@ body {
 }
 
 .inProgressTable {
-    background-color: hsl(200, 100%, 50%);
+    background-color: hsl(208, 100%, 50%);
     margin: 1em;
     border-radius: 0.3em;
     height: min-content;
@@ -97,7 +97,7 @@ body {
 }
 
 .learningToValidateTable {
-    background-color: hsl(200, 100%, 50%);
+    background-color: hsl(208, 100%, 50%);
     margin: 1em;
     border-radius: 0.3em;
     height: min-content;
@@ -116,7 +116,7 @@ body {
 }
 
 .validatedLearningTable {
-    background-color: hsl(200, 100%, 50%);
+    background-color: hsl(208, 100%, 50%);
     margin: 1em;
     border-radius: 0.3em;
     height: min-content;
@@ -141,7 +141,8 @@ li {
     background-color: hsl(20, 100%, 99%);
     padding: 0.3em;
     border-radius: 0.2em;
-    box-shadow: 0em 0.08em hsl(200, 100%, 25%);
+    box-shadow: 0em 0.08em hsl(208, 100%, 25%);
+    padding-right: 0em;
 }
 
 h2 {
