@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+@import url('https://fonts.googleapis.com/css?family=Sarabun');
+
 @media only screen and (orientation: portrait) {
 
 }
@@ -80,6 +83,7 @@ body {
 .intro p {
     font-size: 1.3em;
     margin: 0.3em;
+    font-family: 'Sarabun', sans-serif;
 }
 
 .newTable {
@@ -199,6 +203,10 @@ h1 {
 
 .job h2 {
     font-size: 2em;
+}
+
+.job li, .school li, b {
+    font-family: 'Sarabun', sans-serif;
 }
 
 .school {
