@@ -84,8 +84,8 @@ body {
 .contact a {
     background-color: hsla(51, 100%, 50%, 1);
     padding: 1.5em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
     border-radius: 0.2em;
     font-size: 1.4em;
     color: black;
