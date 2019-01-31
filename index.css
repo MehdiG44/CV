@@ -3,60 +3,47 @@
 
 @media only screen and (orientation: portrait) {
     body {
-        grid-template-columns: 1(1fr);
-        grid-template-rows: 14(1fr);
+        grid-template-rows: 10(1fr);
     }
-    .name {
-        grid-row: 1 / 2;
-        grid-column: 1 / 2;
+    div.name {
+        grid-row: 2 / 3;
+        grid-column: 1 / 5;
+        margin-top: 1em;
     }
-    .intro {
-        grid-row: 2/ 3;
-        grid-column: 1 / 2;
-    }
-    .new {
+    div.intro {
         grid-row: 3 / 4;
-        grid-column: 1 / 2;
+        grid-column: 1 / 5;
     }
-    .newList {
+    .newTable {
         grid-row: 4 / 5;
-        grid-column: 1 / 2;
+        grid-column: 1 / 5;
     }
-    .inProgress {
+    .inProgressTable {
         grid-row: 5 / 6;
-        grid-column: 1 / 2;
+        grid-column: 1 / 5;
     }
-    .inProgressList {
+    .learningToValidateTable {
         grid-row: 6 / 7;
-        grid-column: 1 / 2;
+        grid-column: 1 / 5;
     }
-    .learningToValidate {
+    .validatedLearningTable {
         grid-row: 7 / 8;
-        grid-column: 1 / 2;
+        grid-column: 1 / 5;
     }
-    .learningToValidateList {
+    div.school {
         grid-row: 8 / 9;
-        grid-column: 1 / 2;
+        grid-column: 1 / 5;
+        margin-top: 1em;
     }
-    .validatedLearning {
+    div.job {
         grid-row: 9 / 10;
-        grid-column: 1 / 2;
+        grid-column: 1 / 5;
+        margin-top: 1em;
     }
-    .validatedLearningList {
+    div.tools {
         grid-row: 10 / 11;
-        grid-column: 1 / 2;
-    }
-    .school {
-        grid-row: 11 / 12;
-        grid-column: 1 / 2;
-    }
-    .job {
-        grid-row: 12 / 13;
-        grid-column: 1 / 2;
-    }
-    .tools {
-        grid-row: 13 / 14;
-        grid-column: 1 / 2;
+        grid-column: 1 / 5;
+        margin-top: 1em;
     }
 }
 
@@ -131,7 +118,7 @@ body {
 
 .intro p {
     font-size: 1.3em;
-    margin: 0.3em;
+    margin: 0.5em;
     font-family: 'Sarabun', sans-serif;
 }
 
