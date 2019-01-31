@@ -104,6 +104,7 @@ body {
     display: block;
     top: 0.5em;
     right: 0.5em;
+    letter-spacing: 0.06em;
 }
 
 .contact a:hover {
@@ -222,9 +223,9 @@ body {
     margin: 0.3em;
     margin-right: 0.5em;
     margin-left: 0.5em;
-    background-color: hsl(20, 100%, 99%);
+    background-color: white;
     padding: 0.3em;
-    border-radius: 0.2em;
+    border-radius: 0.1em;
     box-shadow: 0em 0.08em hsl(218, 100%, 25%);
     padding-right: 0em;
     list-style: none;
