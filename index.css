@@ -69,7 +69,7 @@ body {
     display: grid;
     grid-template-columns: 4(1fr);
     grid-template-rows: 6(1fr);
-    background-image: url(lighterChristopher-burns-253179-unsplash.jpg);
+    background-image: url(backgroundimg.jpg);
     background-size: cover;
 }
 
