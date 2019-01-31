@@ -2,16 +2,61 @@
 @import url('https://fonts.googleapis.com/css?family=Sarabun');
 
 @media only screen and (orientation: portrait) {
-
-}
-
-@media only screen and (max-width: 1086px) {
-    .contact a {
-    white-space: pre;
+    body {
+        grid-template-columns: 1(1fr);
+        grid-template-rows: 14(1fr);
     }
-
-    .tools h3 {
-        white-space: pre;
+    .name {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+    }
+    .intro {
+        grid-row: 2/ 3;
+        grid-column: 1 / 2;
+    }
+    .new {
+        grid-row: 3 / 4;
+        grid-column: 1 / 2;
+    }
+    .newList {
+        grid-row: 4 / 5;
+        grid-column: 1 / 2;
+    }
+    .inProgress {
+        grid-row: 5 / 6;
+        grid-column: 1 / 2;
+    }
+    .inProgressList {
+        grid-row: 6 / 7;
+        grid-column: 1 / 2;
+    }
+    .learningToValidate {
+        grid-row: 7 / 8;
+        grid-column: 1 / 2;
+    }
+    .learningToValidateList {
+        grid-row: 8 / 9;
+        grid-column: 1 / 2;
+    }
+    .validatedLearning {
+        grid-row: 9 / 10;
+        grid-column: 1 / 2;
+    }
+    .validatedLearningList {
+        grid-row: 10 / 11;
+        grid-column: 1 / 2;
+    }
+    .school {
+        grid-row: 11 / 12;
+        grid-column: 1 / 2;
+    }
+    .job {
+        grid-row: 12 / 13;
+        grid-column: 1 / 2;
+    }
+    .tools {
+        grid-row: 13 / 14;
+        grid-column: 1 / 2;
     }
 }
 
