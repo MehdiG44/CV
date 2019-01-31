@@ -65,6 +65,11 @@
     font-size: 1.02em;
 }
 
+html {
+    background-image: url(lighterChristopher-burns-253179-unsplash.jpg);
+    background-size: cover;
+}
+
 body {
     display: grid;
     grid-template-columns: 4(1fr);
