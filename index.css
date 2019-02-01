@@ -115,7 +115,7 @@ body {
 }
 
 .contact a {
-    background-color: hsla(51, 100%, 50%, 1);
+    background-color: hsla(55, 100%, 50%, 1);
     padding: 1.5em;
     padding-top: 0.75em;
     padding-bottom: 0.75em;
@@ -133,14 +133,14 @@ body {
 }
 
 .contact a:hover {
-    background-color: hsla(57, 100%, 50%, 1);
+    background-color: hsla(60, 100%, 50%, 1);
 
 }
 
 #linetoptop {
     grid-column: 1 / 5;
     grid-row: 2 / 3;
-    background-color: hsla(51, 100%, 50%, 1);
+    background-color: hsla(55, 100%, 50%, 1);
     height: 2px;
     width: 30em;
     margin: auto;
@@ -164,7 +164,7 @@ body {
 #linetop {
     grid-column: 1 / 5;
     grid-row: 4 / 5;
-    background-color: hsla(51, 100%, 50%, 1);
+    background-color: hsla(55, 100%, 50%, 1);
     height: 2px;
     width: 30em;
     margin: auto;
@@ -299,7 +299,7 @@ h1 {
 #linemiddle {
     grid-column: 1 / 5;
     grid-row: 7 / 8;
-    background-color: hsla(51, 100%, 50%, 1);
+    background-color: hsla(55, 100%, 50%, 1);
     height: 2px;
     width: 30em;
     margin: auto;
@@ -341,7 +341,7 @@ h1 {
 #linebottom {
     grid-column: 1 / 5;
     grid-row: 9 / 10;
-    background-color: hsla(51, 100%, 50%, 1);
+    background-color: hsla(55, 100%, 50%, 1);
     height: 2px;
     width: 30em;
     margin: auto;
