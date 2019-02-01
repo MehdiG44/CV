@@ -27,7 +27,7 @@
     div.newTable {
         grid-row: 6 / 7;
         grid-column: 1 / 5;
-        background-color: hsl(200, 100%, 50%);
+        background-color: hsl(210, 100%, 50%);
     }
     .inProgressTable {
         grid-row: 7 / 8;
