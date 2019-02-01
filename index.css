@@ -32,14 +32,17 @@
     .inProgressTable {
         grid-row: 7 / 8;
         grid-column: 1 / 5;
+        background-color: hsl(208, 100%, 50%);
     }
     .learningToValidateTable {
         grid-row: 8 / 9;
         grid-column: 1 / 5;
+        background-color: hsl(208, 100%, 50%);
     }
     .validatedLearningTable {
         grid-row: 9 / 10;
         grid-column: 1 / 5;
+        background-color: hsl(208, 100%, 50%);
     }
     div#linemiddle {
         grid-row: 10 / 11;
@@ -171,7 +174,7 @@ body {
 }
 
 .newTable {
-    background-color: hsl(218, 100%, 50%);
+    background-color: hsl(215, 100%, 50%);
     margin: 1.7em;
     border-radius: 0.1em;
     height: min-content;
@@ -194,7 +197,7 @@ body {
 }
 
 .inProgressTable {
-    background-color: hsl(218, 100%, 50%);
+    background-color: hsl(215, 100%, 50%);
     margin: 1.7em;
     border-radius: 0.1em;
     height: min-content;
@@ -217,7 +220,7 @@ body {
 }
 
 .learningToValidateTable {
-    background-color: hsl(218, 100%, 50%);
+    background-color: hsl(215, 100%, 50%);
     margin: 1.7em;
     border-radius: 0.1em;
     height: min-content;
@@ -240,7 +243,7 @@ body {
 }
 
 .validatedLearningTable {
-    background-color: hsl(218, 100%, 50%);
+    background-color: hsl(215, 100%, 50%);
     margin: 1.7em;
     border-radius: 0.1em;
     height: min-content;
@@ -273,7 +276,7 @@ body {
     background-color: white;
     padding: 0.3em;
     border-radius: 0.1em;
-    box-shadow: 0em 0.08em hsl(218, 100%, 25%);
+    box-shadow: 0em 0.08em hsl(215, 100%, 25%);
     padding-right: 0em;
     list-style: none;
 }
