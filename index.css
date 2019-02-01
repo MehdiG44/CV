@@ -242,6 +242,7 @@ h3 {
 h1 {
     margin-top: 0.3em;
     margin-bottom: 0.3em;
+    letter-spacing: 0.03em;
 }
 
 .job {
@@ -291,6 +292,6 @@ h1 {
     grid-row: 6 / 7;
 }
 
-h2, h1 {
+h2{
     letter-spacing: 0.06em;
 }
