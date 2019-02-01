@@ -30,10 +30,6 @@
         grid-row: 7 / 8;
         grid-column: 1 / 5;
     }
-    #linemiddle {
-        grid-row: 8 / 9;
-        grid-column: 1 / 5;
-    }
     div.school {
         grid-row: 9 / 10;
         grid-column: 1 / 5;
