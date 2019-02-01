@@ -366,3 +366,9 @@ h1 {
     grid-column: 3 / 5;
     grid-row: 10 / 11;
 }
+
+.info a img {
+    width: 5em;
+    margin-left: 37em;
+    margin-top: 3em;
+}
